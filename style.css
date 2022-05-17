@@ -1,37 +1,25 @@
-.header {
+    .header { /* setting up the header design */
     background:#1F2937;
-    color: white;
     height: 50px;
     margin: -10px;
-    padding-left: 150px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    
-    
-  }
-
-    .headerflex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background: white;    
-        flex-direction: row-reverse;
-        display: flex;
     }
 
-    .hbox-1 {
-        color: black;
+    .header1 { /* setting up the Logo text*/
+        padding-left: 300px;
+        padding-right: 800px;
+        color: #F9FAF8;
+        font-size: 24px;
     }
 
-    .hbox-2 {
-        color: black;
+    .box { /* setting up the 3 links top right of page*/
+        text-align: right;
+        padding: 25px;
+        font-size: 18px;
+        color: white;
     }
 
-    .hbox-3 {
-        color: black;
-    }
-
-    .flex-container1 {
+    .flex-container1 { /* Setting up the three main flex containers*/
         display: inline-flex;
         flex-direction: column;
         background: #1F2937;
@@ -39,14 +27,47 @@
         margin-top: 10px;
     }
 
-    .box {
-        display: inline-flex;    
-        background: #1F2937;
+    .box-1 { /* first flex box */
+        min-height: 200px;
+        width: 2500px;
     }
 
-    .box-1 {
-        min-height: 200px;
+    .p1 { /* For the "This website is awesome*/
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: bold;
+        padding-left: 300px;
+    }
 
+    .p2 { /* To place the awesome word underneath the rest and makes it closer*/
+        margin-top: -65px;
+    }
+
+    .p3 { /* Places the Hero Secondary Text*/
+        margin-top: -40px;
+        padding-left: 300px;
+        font-size: 18px;
+        color: #e5e7eb;
+        overflow-wrap: break-word;
+    }
+    
+    #Cat { /* styles the image*/
+        height: auto;
+        width: 450px;
+        position: absolute;
+        right: 400px;
+        top: 120px;
+    
+    }
+
+    .signup {  /* Styles and sets up the button in the correct place*/
+        background-color: #3882f6;
+        border-radius: 5px;
+        margin-left: 300px;
+        border-color: #3882f6;
+        color: white;
+        height: 30px;
+        width: 100px;
     }
 
     .box-2 {
@@ -66,5 +87,4 @@
     .footer {
         background: #1F2937;
         text-align: center;
-        padding: 24px;
-    }
+        padding: 24px; }
